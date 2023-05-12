@@ -1,0 +1,15 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    registry-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8090/eureka
+
+spring:
+  application:
+    name: USER-SERVICE
+
+server:
+  port: 5000
